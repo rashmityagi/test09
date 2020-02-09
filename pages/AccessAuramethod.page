@@ -1,0 +1,5 @@
+<apex:page controller="AccountsController" standardStylesheets="false" action="{!getAccountList}" applyBodyTag="false">
+ <p>List of Account </p>{!accList } 
+
+
+</apex:page>
