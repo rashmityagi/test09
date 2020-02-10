@@ -488,6 +488,36 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Source_Control__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Created for Git-Gearset setup</inlineHelpText>
+        <label>Source Control</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gearset</fullName>
+                    <default>false</default>
+                    <label>Gearset</label>
+                </value>
+                <value>
+                    <fullName>Jenkins</fullName>
+                    <default>false</default>
+                    <label>Jenkins</label>
+                </value>
+                <value>
+                    <fullName>SourceTree</fullName>
+                    <default>false</default>
+                    <label>SourceTree</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
